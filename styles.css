@@ -1,0 +1,129 @@
+body {
+  background-color: silver;
+}
+hr {
+  border-style: dotted none none;
+  border-width: 7px;
+  border-color: black;
+  height: 0px;
+  width: 50%;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+img:hover {
+  height: 400px;
+  width: 400px;
+}
+h1 {
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 3.2em;
+}
+h3 {
+  color: chocolate;
+}
+button {
+  border-radius: 15px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: beige;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+input[type="text"],
+input[type="email"] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 14px;
+  transition: width 0.4s ease-in-out;
+}
+
+input:focus {
+  border: 3px solid blue;
+}
+input[type="DateofBirth"] {
+  width: 30%;
+}
+select {
+  width: 30%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 14px;
+  background-color: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+select:hover {
+  border: 3px solid #646cff;
+}
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  background-color: cyan;
+  border: 14px;
+  color: black;
+  padding: 10px 22px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 14px;
+}
+input[type="submit"]:hover {
+  background-color: rgb(32, 202, 202);
+}
+input[type="date"] textarea {
+  width: 50%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 14px;
+  background-color: #f8f8f8;
+  resize: none;
+  font-size: 15px;
+}
+textarea:hover {
+  border: 3px solid #646cff;
+}
+p {
+  font-size: 100%;
+  font-family: "Times New Roman", Times, serif;
+}
+a:link,
+a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 14px;
+}
+a.head:link,
+a.head:visited {
+  font-family: "Times New Roman", Times, serif;
+}
+a:hover,
+a:active {
+  background-color: red;
+}
